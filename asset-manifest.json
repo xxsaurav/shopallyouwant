@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/shopallyouwant/static/css/main.70efe209.css",
-    "main.js": "/shopallyouwant/static/js/main.6e1bdf14.js",
+    "main.js": "/shopallyouwant/static/js/main.d88a7d26.js",
     "static/js/787.7eaa9fe6.chunk.js": "/shopallyouwant/static/js/787.7eaa9fe6.chunk.js",
     "static/media/cover.jfif": "/shopallyouwant/static/media/cover.e2edeab17643ab2951c0.jfif",
     "static/media/playstore.png": "/shopallyouwant/static/media/playstore.82b4831979e0ce7c733e.png",
     "static/media/Appstore.png": "/shopallyouwant/static/media/Appstore.d0c5839937e3c36285f6.png",
     "index.html": "/shopallyouwant/index.html",
     "main.70efe209.css.map": "/shopallyouwant/static/css/main.70efe209.css.map",
-    "main.6e1bdf14.js.map": "/shopallyouwant/static/js/main.6e1bdf14.js.map",
+    "main.d88a7d26.js.map": "/shopallyouwant/static/js/main.d88a7d26.js.map",
     "787.7eaa9fe6.chunk.js.map": "/shopallyouwant/static/js/787.7eaa9fe6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70efe209.css",
-    "static/js/main.6e1bdf14.js"
+    "static/js/main.d88a7d26.js"
   ]
 }
