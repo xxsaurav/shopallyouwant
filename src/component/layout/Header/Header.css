@@ -1,0 +1,146 @@
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 2vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.route_home {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    color: #000000;
+  }
+}
+
+.route_about {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    color: #000000;
+  }
+}
+
+.route_contact, .route_login {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    color: #000000;
+  }
+}
+
+.route_products {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    color: #000000;
+  }
+}
+
+.nav {
+  background: #63D471;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0.2rem calc((100vw - 1000px) / 2); */
+  z-index: 1200px;
+  /* transform: translateY(-280px); */
+  /* top: -100%; */
+  transition: transform 0.3s ease;
+}
+
+.nav.open {
+  /* top: 0; */
+  transform: translateY(0);
+}
+
+.fabars {
+ 
+  top: 0;
+  left: 0;
+  transform: translate(100%, 75%);
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #63D471;
+
+}
+
+.fabars.open {
+  
+  color: black
+}
+
+.navmenu {
+  display: flex;
+  align-items: center;
+  padding: auto;
+  margin-right: -24px;
+  /* Second Nav */
+  /* margin-right: 24px; */
+  /* Third Nav */
+  /* width: 100vw;
+    white-space: nowrap; */
+
+}
+
+.navbtn {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+
+  /* Third Nav */
+  /* justify-content: flex-end;
+    width: 100vw; */
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.navbtnlink {
+  border-radius: 4px;
+  background: #808080;
+  padding: 10px 22px;
+  color: #000000;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  /* Second Nav */
+  margin-left: 24px;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #808080;
+  }
+}

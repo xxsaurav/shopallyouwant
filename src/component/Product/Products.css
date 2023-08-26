@@ -1,0 +1,7 @@
+.productsHeading{
+    align-items: center;
+    border-bottom: 1px solid grey;
+    width: 15vw;
+    margin: 2vmax auto;
+    text-align: center;
+}
